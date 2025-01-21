@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.5",
+    "@grpc/proto-loader": "^0.7.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "client.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
