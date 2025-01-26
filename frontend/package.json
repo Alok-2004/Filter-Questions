@@ -1,21 +1,34 @@
 {
-  "dependencies": {
-    "@grpc/grpc-js": "^1.12.5",
-    "@grpc/proto-loader": "^0.7.13"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  },
   "name": "frontend",
-  "version": "1.0.0",
-  "main": "client.js",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon client.js"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.5",
+    "@grpc/proto-loader": "^0.7.13",
+    "@tailwindcss/vite": "^4.0.0",
+    "google-protobuf": "^3.21.4",
+    "grpc-web": "^1.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "vite": "^6.0.5"
+  }
 }

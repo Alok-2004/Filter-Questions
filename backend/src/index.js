@@ -31,7 +31,6 @@ connectDB()
           return;
         }
         console.log(`Server running at 0.0.0.0:${port}`);
-        server.start();
       }
     );
   })
