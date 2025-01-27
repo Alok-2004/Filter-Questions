@@ -1,4 +1,12 @@
 # Filter Questions
+
+## Description
+A brief description of the project, its purpose, and features.
+
+This project uses **gRPC** for efficient and reliable communication between the frontend and backend, ensuring high performance and low latency in data transmission.
+
+---
+
 ## Prerequisites
 Ensure you have the following installed:
 - Node.js (v16 or later)
