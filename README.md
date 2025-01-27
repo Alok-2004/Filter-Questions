@@ -1,38 +1,47 @@
-# Project Title
-
-## Description
-A brief description of the project, its purpose, and features.
-
----
-
+# Filter Questions
 ## Prerequisites
 Ensure you have the following installed:
 - Node.js (v16 or later)
-- MongoDB (for database)
+- MongoDB (for the database)
 - Git
+
+---
 
 ## Steps to Run the Project
 
 ### 1. Clone the Repository
 Clone the project to your local machine:
+```bash
+git clone https://github.com/Alok-2004/Filter-Questions.git
+cd Filter-Questions
+```
 
--https://github.com/Alok-2004/Filter-Questions
--cd Filter-Questions
+### 2. Backend Setup
+Navigate to the backend directory:
 
-##  Backend
-cd frontend
-npm install
-npm run dev
-
-## Frontend
-cd frontend
-npm install
-npm run dev
-
-Setup .env file in backend
+Set up the .env file in the backend directory with the following values:
+```bash
 PORT=9000
 MONGODB_URI=<your_mongodb_uri>
 CORS_ORIGIN=*
+```
+Run following Commands in cli
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+
+### 3. Frontend Setup
+Navigate to the Frontend directory:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
 
 Screenshots
 Screenshot 1:
